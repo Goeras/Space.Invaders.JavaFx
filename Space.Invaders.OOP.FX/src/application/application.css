@@ -1,0 +1,35 @@
+.root {
+    -fx-background-image: url("Space.PixelArt.jpg");
+}
+
+.label {
+	-fx-text-fill: white;
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+}
+
+.button {
+	-fx-pref-width: 150px;
+	-fx-pref-height: 30px;
+	-fx-background-color: white;
+	-fx-text-fill: black;
+	-fx-font-size: 14px;
+	-fx-font-family: "Calibri";
+	-fx-border-color: grey;
+	-fx-border-width: 1px;
+	-fx-background-radius: 5px;
+	-fx-border-radius: 5px;
+}
+.button:hover {
+	-fx-background-color: #8a9998;
+	-fx-text-fill: #333333;
+	-fx-border-color: white;
+	-fx-border-width: 2px;
+}
+	
+.button:pressed {
+	-fx-background-color: #2e2d2d;
+	-fx-text-fill: white;
+	-fx-border-color: white;
+	-fx-border-width: 2px;
+}
